@@ -3,6 +3,7 @@
   margin: 0;
 }
 
+<<<<<<< HEAD
 .header {
   background-color: #525252;
   height: 10vh;
@@ -37,10 +38,20 @@
   justify-content: space-around;
 }
 .main .target {
+=======
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.target {
+>>>>>>> ab23225a576024b09fd01889606277701ba995eb
   text-align: center;
   margin: 10px;
   width: 20%;
 }
+<<<<<<< HEAD
 .main .img {
   width: 100%;
 }
@@ -72,3 +83,20 @@
   gap: 20px;
   justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */
+=======
+
+.img {
+  width: 100%;
+}
+
+.discount, .contact {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: red;
+}
+
+.contact-channels{
+    display: flex;
+}
+>>>>>>> ab23225a576024b09fd01889606277701ba995eb
