@@ -1,8 +1,5 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  background-color: $color-bone;
-
+  @include distroHeader();
   &-fixed {
     &-wm {
       color: $color-black;
@@ -15,7 +12,6 @@
       }
     }
   }
-
   &-title {
     text-align: center;
     color: $color-black;
@@ -26,13 +22,10 @@
       }
     }
   }
-
-  &-find{
-
-    &-filter{
+  &-find {
+    &-filter {
       display: flex;
       list-style: none;
     }
   }
-  
 }

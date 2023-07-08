@@ -1,16 +1,5 @@
 //Conjunto de codigo usa variables va debajo de _var para poder usar las variables
 
-@mixin menu (){
-
-}
-
-@mixin cajasFlexibles(){
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: space-around;
-}
-
 //Ejemplo pasar variables
 @mixin fontWeb($size, $color, $height){
     font-family: $font-web;
@@ -18,3 +7,23 @@
     color: $color;
     line-height: $height;
 }
+
+
+@mixin centerFont(){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin distroTarget(){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@mixin distroHeader(){
+display: flex;
+justify-content: space-between;
+background-color: $color-bone;
+}
+ 

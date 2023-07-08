@@ -36,44 +36,57 @@
   list-style: none;
 }
 
-.main .gallery {
+.main-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.main .target {
+.main-gallery-target {
   text-align: center;
   margin: 10px;
   width: 20%;
 }
-.main .img {
+.main-gallery-target .img {
   width: 100%;
 }
-.main .discount, .main .contact {
+.main-discount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+.main-discount #email {
+  color: #000000;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.main-discount #email:hover {
+  color: #47a147;
+}
+.main-contact {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.main .contact-channels {
+.main-contact-channels {
   display: flex;
+  margin: 5px;
 }
-.main .discount h2 {
-  color: red;
-}
-.main .discount h3 {
-  color: purple;
-}
-.main .discount a {
-  color: black;
-  margin: 20px 20px 20px 20px;
-}
-.main .discount a:hover {
-  color: green;
+.main-contact-channels p {
+  margin: 10px;
 }
 
 .footer {
   display: flex;
-  flex-direction: row;
-  gap: 20px;
+  flex-wrap: wrap;
   justify-content: space-around;
+}
+.footer-info {
+  display: flex;
+}
+.footer-info-ul {
+  list-style: none;
+}
+.footer-resum {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
