@@ -1,0 +1,34 @@
+.header {
+    background-color: $color-primary;
+    height: 10vh;
+  
+    &-title {
+      //accede a la subclase
+      color: $color-white;
+    }
+  
+    & nav {
+      //accede a la etiqueta
+      color: $color-black;
+    }
+  
+    .menu {
+      //accede a la class independiente (nuevo bloque) dentro de otra class. Puede ir fuera, por si se repite. Y crear un variable (mixer) para reatulizar
+      /*display: flex;
+      text-decoration: none;
+      SUSTITUIDO POR MIXIM*/
+      @include cajasFlexibles();
+      
+      list-style: none;
+  
+      &-a {
+        color: $color-red;
+        text-decoration: none;
+  
+        &-active {
+            color: $color-aqua
+
+      }
+    }
+  }
+}

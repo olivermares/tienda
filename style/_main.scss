@@ -1,0 +1,43 @@
+.main {
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .target {
+    text-align: center;
+    margin: 10px;
+    width: 20%;
+  }
+    
+  .img {
+    width: 100%;
+  }
+  
+  .discount, .contact {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.contact-channels{
+  display: flex;
+}
+
+.discount h2{
+color: red;
+}
+
+.discount h3{
+  color: purple;
+}
+
+  .discount a{
+    color: black;
+    margin: 20px 20px 20px 20px;
+  }
+
+  .discount a:hover{
+    color: green;
+  }
+}

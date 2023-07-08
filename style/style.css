@@ -1,16 +1,74 @@
-*{
-    padding: 0;
-    margin: 0; 
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.gallery{
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
+.header {
+  background-color: #525252;
+  height: 10vh;
+}
+.header-title {
+  color: #ffffff;
+}
+.header nav {
+  color: #000000;
+}
+.header .menu {
+  /*display: flex;
+  text-decoration: none;
+  SUSTITUIDO POR MIXIM*/
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+  list-style: none;
+}
+.header .menu-a {
+  color: #ff0000;
+  text-decoration: none;
+}
+.header .menu-a-active {
+  color: #00ffff;
 }
 
-.target{
-    width: 100%;
-    background-color:  red;
+.main .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
+.main .target {
+  text-align: center;
+  margin: 10px;
+  width: 20%;
+}
+.main .img {
+  width: 100%;
+}
+.main .discount, .main .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .contact-channels {
+  display: flex;
+}
+.main .discount h2 {
+  color: red;
+}
+.main .discount h3 {
+  color: purple;
+}
+.main .discount a {
+  color: black;
+  margin: 20px 20px 20px 20px;
+}
+.main .discount a:hover {
+  color: green;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+}/*# sourceMappingURL=style.css.map */
