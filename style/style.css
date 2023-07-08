@@ -76,17 +76,20 @@
   margin: 10px;
 }
 
-.footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
 .footer-info {
   display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 .footer-info-ul {
   list-style: none;
 }
 .footer-resum {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.footer-resum-target {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

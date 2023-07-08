@@ -1,12 +1,21 @@
 .footer {
-  @include distroTarget();
+  //@include distroTarget();
+
   &-info {
     display: flex;
+    justify-content: space-around;
+    width: 100%;
     &-ul {
       list-style: none;
     }
   }
   &-resum {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    &-target{
+        width: 100%;
+    }
   }
 }
