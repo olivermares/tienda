@@ -12,8 +12,8 @@
 }
 
 //Ejemplo pasar variables
-@mixin carFuente($family, $size, $color, $height){
-    font-family: $family;
+@mixin fontWeb($size, $color, $height){
+    font-family: $font-web;
     font-size: $size;
     color: $color;
     line-height: $height;
